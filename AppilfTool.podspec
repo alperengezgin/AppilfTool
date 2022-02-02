@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-
+  spec.resources = "AppilfTool/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 
   spec.requires_arc = true
