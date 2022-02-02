@@ -2,7 +2,8 @@
 
 Pod::Spec.new do |spec|
 
-
+  spec.platform     = :ios
+  spec.ios.deployment_target = '12.0'
   spec.name         = "AppilfTool"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of AppilfTool."
