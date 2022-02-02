@@ -33,8 +33,8 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = "5"
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  spec.resources = "AppilfTool/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "AppilfTool/**/*.{swift,png,jpeg,jpg,storyboard,xib,xcassets}"
 
 
   spec.requires_arc = true
